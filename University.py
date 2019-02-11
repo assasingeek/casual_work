@@ -1,3 +1,8 @@
+#This is a university predictorava neural network model.
+#The dataset was obtained from Kaggle : 'https://www.kaggle.com/mohansacharya/graduate-admissions'
+#It takes the available column as data and predict the chances of one getting in a university.
+#The acuuracy is only 61% for the time being.
+
 import logging as lg
 lg.basicConfig(level=lg.INFO, format='%(levelname)-8s: %(message)s')
 import numpy as np
