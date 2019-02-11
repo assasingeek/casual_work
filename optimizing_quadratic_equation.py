@@ -1,3 +1,7 @@
+# This formulates a random quadratic equation and then tries to solve it.
+#The accuracy is about 97%.
+
+
 import logging as lg
 lg.basicConfig(level=lg.INFO, format='%(levelname)-8s: %(message)s')
 import numpy as np
