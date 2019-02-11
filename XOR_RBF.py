@@ -1,3 +1,6 @@
+#This is implementation of XOR logic using Radial Basis Function Network (RBFN).
+# This gives approx. 98% accuracy.
+
 import logging as lg
 lg.basicConfig(level=lg.INFO, format='%(levelname)-8s: %(message)s')
 from sklearn.cluster import KMeans
