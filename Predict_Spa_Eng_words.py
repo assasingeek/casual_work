@@ -5,6 +5,10 @@
 # "https://www.iwillteachyoualanguage.com/learn/spanish/spanish-tips/common-spanish-phrases"
 # Much of the code is from pytorch documentation
 
+#########################################################################################
+# This is a classification problem where a word is classified as either Spanish or English.
+#########################################################################################
+
 import logging as lg
 lg.basicConfig(level=lg.INFO, format='%(levelname)-8s: %(message)s')
 import torch
